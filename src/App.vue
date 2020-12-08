@@ -1,16 +1,12 @@
 <template>
-  <!-- <img class="logo" alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld :msg="msg"/>
-  <div class="btn">
-    <el-button type="primary" @click="startHacking">
-      Get Started
-    </el-button>
-  </div>
+  <Header-Component></Header-Component>
+  
 </template>
 
 <script>
 import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/Header.vue'
 
 export default {
   name: 'App',
