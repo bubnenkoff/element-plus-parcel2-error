@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" alt="Vue logo" src="./assets/logo.png">
+  <!-- <img class="logo" alt="Vue logo" src="./assets/logo.png"> -->
   <HelloWorld :msg="msg"/>
   <div class="btn">
     <el-button type="primary" @click="startHacking">
